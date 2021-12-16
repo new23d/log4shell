@@ -16,8 +16,6 @@ The `Version` relates to the `Status` column. If `Status` is Vulnerable, Version
 
 **NCSC-NL has published a HIGH/HIGH advisory for the Log4j vulnerability. Normally we would update the HIGH/HIGH advisory for vulnerable software packages, however due to the extensive amounts of expected updates we have created a list of known vulnerable software in the software directory.**
 
-_Note: daily releases of this software list are listed, including CSV and JSON files, in the [releases](https://github.com/NCSC-NL/log4shell/releases) overview. Please check the [software list parser](https://github.com/NCSC-NL/log4shell/tree/main/tools/log4shell_softwarelist) tool to generate a CSV or JSON on your own._
-
 ## Software overview
 
 [0-9](#0-9) [A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z)
@@ -410,6 +408,7 @@ _Note: daily releases of this software list are listed, including CSV and JSON f
 | Cerebro | Cerebro Elasticsearch Web Admin | All | Not vuln | Uses logback for logging |[source](https://github.com/lmenezes/cerebro/blob/main/conf/logback.xml#L5) |
 | Cerberus | FTP | Unknown | Not vuln | |[source](https://support.cerberusftp.com/hc/en-us/articles/4412448183571-Cerberus-is-not-affected-by-CVE-2021-44228-log4j-0-day-vulnerability) |
 | Cerebrate | Cerebrate | All | Not vuln | |[source](https://twitter.com/cerebrateproje1/status/1470347775141421058) |
+| Chaser Systems | discrimiNAT Firewall | All | Not vuln | | [source](https://chasersystems.com/discrimiNAT/blog/log4shell-and-its-traces-in-a-network-egress-filter/#are-chasers-products-affected) |
 | Check Point | Quantum Security Gateway | All | Not vuln | |[source](https://supportcontent.checkpoint.com/solutions?id=sk176865) |
 | Check Point | Quantum Security Management | All | Not vuln | |[source](https://supportcontent.checkpoint.com/solutions?id=sk176865) |
 | Check Point| CloudGuard | All | Not vuln | |[source](https://supportcontent.checkpoint.com/solutions?id=sk176865) |
